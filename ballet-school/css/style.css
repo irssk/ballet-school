@@ -1,0 +1,130 @@
+@import url("./variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    padding:0 var(--padding-l);
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    width: 1512px;
+    background: var(--primary-bg);
+    font-family: var(--ff-assistant);
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: var(--fs-s);
+    color: var(--secondary-text-color);
+    margin-top: var(--margin-s);
+    width: 692px;
+}
+
+.direction__paragraph {
+    font-size: calc(var(--fs-xxs) - 2px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: calc(var(--fs-xl) - 10px);
+    font-family: var(--ff-kaisei);
+    color: var(--primary-text-color);
+    margin-top: var(--margin-xl);
+}
+
+.sub-title {
+    margin-top: var(--margin-xl);
+    font-size: calc(var(--fs-m) + 4px);
+    color: var(--primary-text-color);
+}
+
+.image {
+    width: 1256px;
+    margin-left: calc(var(--margin-xxxl) - 35px);
+}
+
+.header {
+    padding-top: var(--margin-l);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    width: 18px;
+    height: 2px;
+    background: var(--primary-text-color);
+    margin-top: 3px;
+}
+
+.preview {
+    background: url("../public/images/backgrounds/background-1.png");
+    background-position: center;
+    background-size: 1000px;
+    height: 476px;
+    color: var(--primary-text-color);
+}
+
+.preview__title {
+    margin-top: var(--margin-xxl);
+    font-family: var(--ff-kaisei);
+    font-size: var(--fs-xl);
+}
+
+.preview__paragraph {
+    margin-top: var(--margin-xs);
+}
+
+.player__bg {
+    width: 1512px;
+}
+
+.player__play {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top : -140px;
+    left : 48%;
+    transform: translate(40%,-190px);
+}
+
+.about-us__title {
+    margin-top: 40px;
+}
+
+.direction__image {
+    width: 259px;
+    height: 92px;
+}
