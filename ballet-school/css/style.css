@@ -100,7 +100,7 @@ section {
 .preview__title {
     margin-top: var(--margin-xxl);
     font-family: var(--ff-kaisei);
-    font-size: var(--fs-xl);
+    font-size: calc(var(--fs-xl) + 10px);
 }
 
 .preview__paragraph {
